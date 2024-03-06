@@ -1,0 +1,39 @@
+---
+title: "Convergence Towards Greater Variance"
+author: "Ezeriki Emetonjor"
+format:
+  cmc-article-pdf:
+    fontsize: 12pt
+    margin-left: 1.5in
+    margin-right: 1.5in
+    margin-bottom: 1.2in
+    margin-top: 1.2in
+    keep-tex: true
+    fig-pos: 'tbp'
+    tbl-pos: 'tbp'
+    linkcolor: 'blue'
+    include-in-header: header.tex
+header-includes:
+   \usepackage{float}
+   \floatplacement{table}{H}
+bibliography: bibliography.bib
+abstract: | 
+  This research investigates heterogeneous effects within a political exchange paradigm operative in Chinese local political frameworks involving Provincial Party Secretaries (PPS) and City Mayors. Expanding on previous investigations that showed how this political exchange affects higher infrastructure spending in China relative to other countries, this study specifically centers on subway infrastructure as a conduit facilitating the alignment of objectives between PPS and city mayors, thereby augmenting their prospects for future career advancements. My findings reveal statistically significant differences in the efficacy of securing subway project approvals in relation to tenure, which can greatly influence the promotion likelihood of city mayors in China. Furthermore, my study confirms that there are no statistically significant differences based on age. 
+---
+
+{{< pagebreak >}}
+
+
+# Introduction
+
+
+
+# Conclusion
+
+
+{{< pagebreak >}}
+
+
+
+::: {#refs}
+:::
