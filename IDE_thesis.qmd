@@ -2,23 +2,26 @@
 title: "Convergence Towards Greater Variance"
 author: "Ezeriki Emetonjor"
 format:
-  pdf:
+  cmc-article-pdf:
     fontsize: 12pt
-    margin-left: 1.5in
-    margin-right: 1.5in
-    margin-bottom: 1.2in
-    margin-top: 1.2in
+    margin-left: 1.25in
+    margin-right: 1in
+    margin-bottom: 1in
+    margin-top: 1in
     keep-tex: true
     fig-pos: 'tbp'
     tbl-pos: 'tbp'
     linkcolor: 'blue'
+    #indent: true
     #include-in-header: header.tex
 header-includes:
    \usepackage{float}
    \floatplacement{table}{H}
+   \setlength\parindent{24pt}
+   \setlength\parskip{0em}
 #bibliography: bibliography.bib
 abstract: | 
-  This research investigates heterogeneous effects within a political exchange paradigm operative in Chinese local political frameworks involving Provincial Party Secretaries (PPS) and City Mayors. Expanding on previous investigations that showed how this political exchange affects higher infrastructure spending in China relative to other countries, this study specifically centers on subway infrastructure as a conduit facilitating the alignment of objectives between PPS and city mayors, thereby augmenting their prospects for future career advancements. My findings reveal statistically significant differences in the efficacy of securing subway project approvals in relation to tenure, which can greatly influence the promotion likelihood of city mayors in China. Furthermore, my study confirms that there are no statistically significant differences based on age. 
+  to come soon 
   git_personal access token: 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
 ---
 
@@ -28,7 +31,7 @@ abstract: |
 
 Many developing countries around the world, especially in Africa, Latin America, and Southeast Asia, have experienced rapid economic growth in recent years. In particular, countries in sub-Saharan Africa have experienced growth that surpassed their initial growth rates around the 1960s - 70s, a period in which many of those countries gained Independence (Diao, McMillan, & Rodrick, 2019). However, numerous problems still hold the region back, one of which is an employment issue. A striking statistic is that for every 10 - 12 million youths that enter the labor market each year, only 3 million formal sector jobs are created for them (Fields, 2021). This issue is especially salient, given the continent’s large youth population, with the median age in the continent being 19 years (IMF Picture this).
 
-It is therefore a serious research question of how best to harness the budding potential of African countries, particularly in terms of allocating their numerous resources to productive parts of their economies in ways that can ensure sustained growth. In this paper, I aim to contribute to the Literature by analyzing firm level data for four sub-saharan African countries, namely Nigeria, South Africa, Senegal, and Malawi??, specifically by characterizing what type of firms, in terms of size and the estimation of labor productivity, are actually increasing employment and therefore playing a role in reducing the issue highlighted above; I aim to focus specifically on the role that the exit and entry of firms play in determining labor productivity, especially how it relates to affecting the dispersion of productivity across firms.
+It is therefore a serious research question of how best to harness the budding potential of African countries, particularly in terms of allocating their numerous resources to productive parts of their economies in ways that can ensure sustained growth. In this paper, I aim to contribute to the Literature by analyzing firm level data for three sub-Saharan African countries, namely Nigeria, South Africa, and Senegal, specifically by characterizing what type of firms, in terms of size and the estimation of labor productivity, are actually increasing employment and therefore playing a role in reducing the issue highlighted above; I aim to focus specifically on the role that the exit and entry of firms play in determining labor productivity, especially how it relates to affecting the dispersion of productivity across firms.
 
 Past research has extensively studied the concept of structural transformation, which is a topic that directly relates to the reallocation of factors of production, such as labor, to more productive sectors of the economy; such as (cite specific papers, kuznet, arthur lewis). There has also been much study on the macroeconomic concept of Total factor Productivity (TFP), particularly on the role that mis-allocation, and thus reallocation of factors of production, can play in increasing TFP growth (cite Hseih & Klenow, Bailey et al). My contribution to these broad areas of research is synthesizing and combining their findings in order to apply to recently compiled data, specifically on a micro firm level, from which I can get more granular insights as to the specific mechanisms that could potentially be driving macro trends as it relates to the allocation of labor in the context of developing countries.
 
@@ -36,9 +39,10 @@ A recent paper by Diao et al is the main predecessor to my thesis, as they also 
 
 Although a sizable portion of the Literature has focused on the Manufacturing sector, specifically due to its "almost" traditional pathway to economic prosperity, based on the experiences of Europe during the Industrial Revolution or the East Asian Miracle, there's is another relevant question of if Manufacturing is still a viable path for upcoming economies. Work by Amirapu and Subramanian (2015) and Fan, Peters, and Zilibotti (2023) have explored the major role that the services industry has played in the development of India, a currently developing country. Therefore, although I aim to focus on the manufacturing sector for the purposes of this paper, there is still the underlying importance of other modern sectors, from which this study could be extended to and which I will return to later in the paper.
 
-The rest of the proposal will proceed as follows: first, I will go through a Literature review where I highlight important works, that have inspired this these, followed by a discussion of the data that will be used and of the methodologies that will be employed
+The rest of the proposal will proceed as follows: first, I will go through a Literature review where I highlight important works, that have inspired this thesis, followed by a discussion of the data that will be used and of the methodologies that will be employed
 
 # Literature Review
+
 Many developing countries around the world, especially in Africa, Latin America, and Southeast Asia, have experienced sustained and rapid economic growth in recent years. In particular, countries in sub-saharan Africa have experienced growth that surpassed their initial growth rates around the 1960s - 70s, a period in which many of those countries gained Independence (Diao, McMillan, & Rodrick, 2019). A big driver of this growth has been the reallocation of factors of production from low productivity sectors, a typical example being traditional agricultural activities, to high productivity sectors, such as modern manufacturing, a process commonly termed Structural Change (Diao, McMillan, & Rodrick (2019), McMillan & Rodrick (2011)). This distinction between high and low productivity sectors has been explored through models posited by economists, such as Arthur Lewis the Nobel Laureate, in which there is a capitalist sector that utilizes productive capital and is an engine for overall economic growth and the subsistence sector that does not use any capital but holds “unlimited amounts of labor” and can therefore drag down overall growth and also allows for the existence of a dual economy (Lewis 1954). (finish reading paper). Also check out kuznets (talk more here about the equalizing of MPL across sectors ina neoclassical sector with no distortions or wedges)
 
 However, is structural change enough for sustainable growth? McMillan & Rodrick state that it is possible for a country to experience positive economic growth just from the reallocation of factors of production from low to high productivity sectors without any productivity growth within sectors (2011). However, this form of growth might not be sustainable. Diao, McMillan, & Rodrick develop a model, which is consistent with data sources compiled from the World Bank…(get the data sources), that decomposes aggregate labor productivity growth into a collaboration between structural change and within sector productivity growth (2019). The model shows that structural change is the main driver of economic growth in many African countries and that this growth in particular is demand driven (Diao, McMillan, & Rodrick 2019). This specifically means that much of the labor leaving the traditional agricultural sector has been due to the cropping up of many modern, small, and many times, less productive modern firms providing employment opportunities so as to meet the increased demand of modern products nationally, brought about by factors, such as foreign aid transfers or increased productivity in the agricultural sector itself; as a result, the analysis is also consistent with limited or almost zero productivity growth within the modern sectors (non-agricultural sectors) (Diao, McMillan, & Rodrick, 2019). This is in comparison to development case studies in East Asia whose growth, characterized by a positive supply shock to the modern sector, sees a positive contribution of both structural change and within sector productivity (Diao, McMillan, & Rodrick, 2019). 
@@ -56,13 +60,23 @@ In the next section, I will go through a description of the World Bank Enterpris
 
 # Data and Methodology
 ## Data
-The data that will be utilized in this analysis is provided by the World Bank through their Formal Private Enterprise survey. The survey is a random sample of firms, carefully curated to be representative of the population of firms within each economy; Table 1 highlights some important statistics for the economies that will be analysed in this paper. The main sectors of interest, which most of the firms are broadly categorized into are Manufacturing and Services (cite World Bank). Based on the focus on the manufacturing sector in past Literature, as explained earlier, the main focus of this thesis will be on the distribution of firm productivity within the manufacturing sector. The data is collected through stratified random sampling, in which the levels of strata include firm size, sector, and region, and sampling weights are provided in order to adjust for population representation (cite World Bank). 
 
-(talk about the efforts of the world bank to maintain the panel, cite that churning world bank paper)
+The data that will be utilized in this analysis is provided by the World Bank through their Private sector Enterprise survey (ES). The survey includes a random sample of formally registered firms, with 5 or more employees, carefully curated to be representative of the population within each economy; Table 1 highlights some important statistics for the economies that will be analysed in this paper. The main sectors of interest, which most of the firms are broadly categorized into, are Manufacturing and Services (cite World Bank). Based on the focus on the manufacturing sector in past Literature, as explained earlier, the main focus of this thesis will be on the distribution of firm productivity within the manufacturing sector. 
 
-Specifically, the countries of interest for this paper: Senegal, South Africa, and Nigeria, the years over which the data spans ranges from 2003 to 208, with South Africa having the longest time span between 2003 and 2018. All countries have three years of panel data as decomposed in table 1. It might therefore be worthwhile to estimate the firm entry and exit both between the longer time frame between the earliest year and latest year, as well as the middle year and latest year. 
+The main goal of the surveys is to provide data that allows researchers to analyze the business environment in which these firms operate and how it changes over time. As a result, the survey design makes a concerted effort to re-interview firms in later waves that had been interviewed in the initial wave. Particularly in the screening process, when firms are evaluated on the basis of eligibility into the study, numerous ES codes are generated that identify the continued existence of a firm that was interviewed in the initial wave (cite churn paper). This identification provides the ability to calculate firm exit. However, a limitation of the survey methodology is that firms that are included in newer waves of the survey who were not in the initial stage are regarded as a "fresh sample" (cite World Bank sampling note). As a result, there are firms that show up as new in fresh waves of the survey, who in reality, may have been operating for a longer time than the data would suggest; therefore, identifying new entrants might be more difficult than firm exit and would require further inference from other variables provided in the data, such as year operations began.
 
-(talk more about the variables of interest, such as labor, sales, profit, value added, share of sales, sampling weights, control that can be put in such as strata levels)
+The data is collected through stratified random sampling, in which the levels of strata include firm size, sector, and region, and sampling weights are provided in order to adjust for population representation (cite World Bank). Due to this, sampling weights are provided in order to estimate population parameters. Absolute weights are calculated as follows: $$w_{ijh} = \frac{1}{p_{ijh}} = \frac{N_{ijh}}{n_{ijh}}$$ where $i, j, h$ represent the stratification levels of industry, firm size, and region respectively and $N_{ijh}$ is the accurate number of total number of establishments within one $ijh$ stratified cell and $n_{ijh}$ is the number of firms included in that stratum for the actual data collection. Further adjustments are also provided to account for incorrect calculation of $N_{ijh}$ and relative weights are also calculated in order to smooth out the extreme weights that can be caused by very small realized samples in a $ijh$ cell relative to their population counterpart (cite World Bank sampling notes).
+
+Specifically, for the countries of interest for this paper: Senegal, South Africa, and Nigeria, the years over which the data spans ranges from 2003 to 2008, with South Africa having the longest time span between 2003 and 2018. All countries have three years of panel data as decomposed in table 1. It might therefore be worthwhile to estimate the firm entry and exit both between the longer time frame between the earliest year and latest year, as well as the middle year and latest year. 
+
+All the data sets for the countries include the necessary variables for identifying firm exit (state: variable eligibility), infer firm entry(year that operations began, variable b5, b6a, b6b), and also calculate labor productivity(state: number of employees(l1, l5a), sales (d2, n3), costs(n7a, n7b, n2a, n2e, n2t, n2b, n2i, n2j), value added (sales - costs), share of income)
+
+Okay this is just for me but interesting variables:
+d3 series and exporter variable: how much % of sales goes to certain customer base ( can use to separate between exporters and non exporters)
+b1 and b2 series: who owns company
+wstrict, wmedian, wweak, oldweight_est/size, wt: sampling weights variable but read again documentation how this is calculated
+k variable series: credit
+oldng_m1b: exchange rate
 
 The below section goes into more detail as to how I intend to define firm entry and exit, based on models developed in past Literature, as well as how I intend to estimate the effect of firm churn on the variation in labor productivity
 
