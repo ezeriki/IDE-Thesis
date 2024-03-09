@@ -2,7 +2,7 @@
 title: "Convergence Towards Greater Variance"
 author: "Ezeriki Emetonjor"
 format:
-  cmc-article-pdf:
+  pdf:
     fontsize: 12pt
     margin-left: 1.5in
     margin-right: 1.5in
@@ -12,11 +12,11 @@ format:
     fig-pos: 'tbp'
     tbl-pos: 'tbp'
     linkcolor: 'blue'
-    include-in-header: header.tex
+    #include-in-header: header.tex
 header-includes:
    \usepackage{float}
    \floatplacement{table}{H}
-bibliography: bibliography.bib
+#bibliography: bibliography.bib
 abstract: | 
   This research investigates heterogeneous effects within a political exchange paradigm operative in Chinese local political frameworks involving Provincial Party Secretaries (PPS) and City Mayors. Expanding on previous investigations that showed how this political exchange affects higher infrastructure spending in China relative to other countries, this study specifically centers on subway infrastructure as a conduit facilitating the alignment of objectives between PPS and city mayors, thereby augmenting their prospects for future career advancements. My findings reveal statistically significant differences in the efficacy of securing subway project approvals in relation to tenure, which can greatly influence the promotion likelihood of city mayors in China. Furthermore, my study confirms that there are no statistically significant differences based on age. 
   git_personal access token: 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
@@ -53,6 +53,18 @@ One step towards tackling this issue is first identifying possible reasons for t
 An interesting question arises, which is the main purpose of this thesis, is does this phenomenon also plays out in other sub-saharan African countries. Specifically, I aim to study the following countries: Nigeria, South Africa, and Senegal (or Malawi or Kenya or Ghana). Senegal serves as a great comparison to Ethiopia and Tanzania, as it has also experienced a similar phenomenon of high structural transformation with low modern sector productivity, particularly for the sectors that contributed the most to structural change (Diao, McMillan, & Rodrick, 2019). Nigeria and South Africa, on the other hand, took membership in another group of sub-saharan African countries who actually experienced weak structural change, still with a negative correlation with sectoral productivity growth in the manufacturing sector  (Diao, McMillan, & Rodrick, 2019). In addition to estimating the labor productivity and employment growth across time for these countries n a firm level basis, as done for Ethiopia and Tanzania, I plan to dig deeper into the role that entry and exit of firms plays in determining labor productivity growth, specifically using decomposition equations and measurements of factor productivity used in prior literature (put note in, citing Hsieh & Klenow, Bailey et al). I will be using similar data from Diao, McMillan, & Rodrick (2019) work, which is data from Groningen Growth and Development Center (GGDC) (now updated to the latest 2023 version), to replicate and confirm similar patterns of negative correlation between structural change and sectoral labor productivity in terms of their contribution to productivity growth. However, for the main analysis of the firm level environment for thee countries I will be using the carefully curated World Bank Enterprise survey panel data, which I will go into more detail in upcoming sections, that contains random samples of formal private sector firms, designed to be representative of the population of firms within each economy. 
 
 In the next section, I will go through a description of the World Bank Enterprise Data and cleaning of the data for my research purposes, as well go more in depth as to the measurements of productivity and the identification of the entry and exit of firms
+
+# Data and Methodology
+## Data
+The data that will be utilized in this analysis is provided by the World Bank through their Formal Private Enterprise survey. The survey is a random sample of firms, carefully curated to be representative of the population of firms within each economy; Table 1 highlights some important statistics for the economies that will be analysed in this paper. The main sectors of interest, which most of the firms are broadly categorized into are Manufacturing and Services (cite World Bank). Based on the focus on the manufacturing sector in past Literature, as explained earlier, the main focus of this thesis will be on the distribution of firm productivity within the manufacturing sector. The data is collected through stratified random sampling, in which the levels of strata include firm size, sector, and region, and sampling weights are provided in order to adjust for population representation (cite World Bank). 
+
+(talk about the efforts of the world bank to maintain the panel, cite that churning world bank paper)
+
+Specifically, the countries of interest for this paper: Senegal, South Africa, and Nigeria, the years over which the data spans ranges from 2003 to 208, with South Africa having the longest time span between 2003 and 2018. All countries have three years of panel data as decomposed in table 1. It might therefore be worthwhile to estimate the firm entry and exit both between the longer time frame between the earliest year and latest year, as well as the middle year and latest year. 
+
+(talk more about the variables of interest, such as labor, sales, profit, value added, share of sales, sampling weights, control that can be put in such as strata levels)
+
+The below section goes into more detail as to how I intend to define firm entry and exit, based on models developed in past Literature, as well as how I intend to estimate the effect of firm churn on the variation in labor productivity
 
 
 # Conclusion
