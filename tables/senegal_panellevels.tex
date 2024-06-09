@@ -1,0 +1,27 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Growth in Employment}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+            &\multicolumn{1}{c}{Value Added}&\multicolumn{1}{c}{Employment}\\
+\hline
+Large Firm  &       1.563\sym{***}&       159.0\sym{***}\\
+            &     (0.333)         &     (36.67)         \\
+[1em]
+Exporter    &       0.225         &       353.5         \\
+            &     (0.814)         &     (273.3)         \\
+[1em]
+Foreign     &       1.573\sym{*}  &       11.74         \\
+            &     (0.668)         &     (37.50)         \\
+[1em]
+Constant    &       8.684\sym{***}&       13.08\sym{***}\\
+            &     (0.190)         &     (3.881)         \\
+\hline
+Observations&         294         &         446         \\
+R-Squared   &       0.349         &       0.437         \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+\end{table}
